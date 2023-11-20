@@ -1,0 +1,1 @@
+.fill-grid{display:flex;flex-direction:column;color:#ffffffde}.fill-grid div{padding:10px;border:1px solid #37ff8b;border-radius:4px;color:#ffffffde}[role=row]{display:flex;justify-content:space-between}[role=row] div{width:250px}[role=columnheader] div,.rdg-checkbox{display:none}

@@ -1,0 +1,32 @@
+/* ReactDataGrid.css */
+
+.fill-grid {
+  display: flex;
+  flex-direction: column;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.fill-grid div {
+  padding: 10px;
+  border: 1px solid #37ff8b;
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+[role='row'] {
+  display: flex;
+  justify-content: space-between;
+}
+
+[role='row'] div {
+  width: 250px;
+}
+
+[role='columnheader'] div {
+  display: none;
+}
+
+.rdg-checkbox {
+  display: none;
+}
+/* Add any additional styling as needed */

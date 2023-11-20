@@ -1,0 +1,104 @@
+.tableContainerTS {
+  overflow-x: scroll;
+  white-space: nowrap;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.tableTS {
+  border: 1px solid #37ff8b;
+  border-radius: 4px;
+}
+
+.trTS {
+  display: flex;
+}
+
+.tdTS {
+  border: 1px solid #37ff8b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.thTS {
+  border: 1px solid #37ff8b;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 0;
+  gap: 10px;
+  text-align: center;
+}
+
+.thTS button {
+  margin: 0;
+  padding: 0;
+}
+
+.resizerTS {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 5px;
+  background-color: white;
+  cursor: col-resize;
+  user-select: none;
+  touch-action: none;
+  border-radius: 6px;
+}
+
+.resizerTS:hover {
+  opacity: 1;
+}
+
+.resizerTS.isResizingTS {
+  background-color: white;
+  opacity: 1;
+}
+
+.buttonTS {
+  background-color: transparent;
+  color: white;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.buttonFooterTS {
+  margin: 0.7rem;
+  border: 1px solid #37ff8b;
+  background-color: transparent;
+  padding: 0.7rem;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.datepicker input {
+  color: white;
+}
+
+.datepicker div {
+  background-color: #242424;
+  color: white;
+}
+
+.datepicker svg {
+  color: white;
+}
+
+.editableCell input {
+  margin: 10px;
+}
