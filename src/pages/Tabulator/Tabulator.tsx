@@ -2,7 +2,7 @@ import 'react-tabulator/lib/styles.css';
 import 'react-tabulator/lib/css/tabulator_site.css';
 import { ColumnDefinition, ReactTabulator } from 'react-tabulator';
 import appointment from '../../store/appointment';
-import defaultData, { obj } from '../../mock/defaultData';
+import { obj } from '../../mock/defaultData';
 import { toJS } from 'mobx';
 import './Tabulator.css';
 import { columns } from './configs/columnsConfig';
@@ -20,10 +20,12 @@ const Tabulator = observer(() => {
   }
 
   function removeRow() {
+    //@ts-ignore
     appointment.removeAppointment(table?.current?.current.getSelectedData()[0]);
   }
 
   function updateRow() {
+    //@ts-ignore
     appointment.updateAppointment(table?.current?.current.getSelectedData()[0]);
   }
 

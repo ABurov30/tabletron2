@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import './ReactDataGrid.css';
 import DataGrid, { SortColumn } from 'react-data-grid';
-import defaultData from '../../mock/defaultData';
 import { rowKeyGetter } from './utils/rowKeyGetter';
 import { handleFill } from './utils/handleFill';
 import { handleCopy } from './utils/handleCopy';
